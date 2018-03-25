@@ -1,0 +1,20 @@
+{
+  "name": "adcat",
+  "version": "1.0.0",
+  "description": "for hackathon",
+  "main": "server.js",
+  "scripts": {
+    "start-dev": "supervisor -e html,js,css server.js"
+  },
+  "keywords": [
+    "node",
+    "hack"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "moment": "^2.21.0",
+    "node-rest-client": "^3.1.0"
+  }
+}

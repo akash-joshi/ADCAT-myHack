@@ -1,0 +1,14 @@
+- args:
+    permission:
+      columns:
+      - user_id
+      - jsoninp
+      - age
+      - relation_status
+      - education
+      - work
+      - place
+      filter: {}
+    role: anonymous
+    table: Users
+  type: create_select_permission
