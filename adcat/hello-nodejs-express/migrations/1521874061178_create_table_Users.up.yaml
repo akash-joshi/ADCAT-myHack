@@ -1,7 +1,0 @@
-- args:
-    sql: CREATE TABLE "Users"("user_id" text NOT NULL, "jsoninp" json NOT NULL, PRIMARY
-      KEY ("user_id") )
-  type: run_sql
-- args:
-    name: Users
-  type: add_existing_table_or_view

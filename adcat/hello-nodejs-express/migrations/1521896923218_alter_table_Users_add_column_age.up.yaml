@@ -1,3 +1,0 @@
-- args:
-    sql: ALTER TABLE "Users" ADD COLUMN "age" text NUll
-  type: run_sql
